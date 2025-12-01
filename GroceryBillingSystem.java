@@ -149,9 +149,9 @@ static void adminLogin() {
 
         } while (choice != 7);
     }
-}
 
-static void cashierLogin() {
+
+    static void cashierLogin() {
         
         int choice;
 
