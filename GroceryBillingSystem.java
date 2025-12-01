@@ -7,7 +7,7 @@ public class GroceryBillingSystem {
     static final String ADMIN_USER = "Admin";
     static int ADMIN_PASS = 1234;
 
-    static final String CASHIER_USER = "cashier";
+    static final String CASHIER_USER = "Cashier";
     static int CASHIER_PASS = 1111;
 
     public static void main(String[] args) {
