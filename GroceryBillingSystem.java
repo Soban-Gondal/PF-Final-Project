@@ -65,6 +65,7 @@ static void adminLogin() {
                  System.out.println("Invalid cashier details!");
                 }
                 break;
+                
             case 2:
                 System.out.println("\n===== CHANGE ADMIN PASSWORD =====");
     
@@ -175,6 +176,7 @@ static void adminLogin() {
                  System.out.println("Invalid cashier details!");
                 }
                 break;
+                
             case 2:
                 System.out.println("\n===== CHANGE CASHIER PASSWORD =====");
     
