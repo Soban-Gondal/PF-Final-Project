@@ -24,7 +24,7 @@ public class GroceryBillingSystem {
 
             switch (choice) {
                 case 1:
-                    System.out.println("adminLogin()");
+                    adminLogin();
                     break;
 
                 case 2:
