@@ -88,6 +88,10 @@ public class GroceryBillingSystem1 {
                     System.out.println("Incorrect current PIN!");
                 }
                 break;
+                
+           default:
+                System.out.println("Invalid choice!");
+                    
         }
     }
     static void adminMenu() {
@@ -146,3 +150,4 @@ public class GroceryBillingSystem1 {
         } while (choice != 7);
     }
 }
+
