@@ -4,7 +4,7 @@ public class GroceryBillingSystem {
     static Scanner sc = new Scanner(System.in);
 
     
-    static final String ADMIN_USER = "admin";
+    static final String ADMIN_USER = "Admin";
     static int ADMIN_PASS = 1234;
 
     static final String CASHIER_USER = "cashier";
