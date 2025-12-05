@@ -115,19 +115,19 @@ static void adminLogin() {
 
             switch (choice) {
                 case 1:
-                    System.out.println("out viewItems()");
+                    viewItems();
                     break;
 
                 case 2:
-                    System.out.println("addItem()");
+                    addItem();
                     break;
 
                 case 3:
-                    System.out.println("changePrice()");
+                    changePrice();
                     break;
 
                 case 4:
-                     System.out.println("deleteItem()");
+                     deleteItem();
                     break;
 
                 case 5:
@@ -150,8 +150,15 @@ static void adminLogin() {
 
         } while (choice != 7);
     }
+    
+    static void viewItems(){}
 
+    static void addItem(){}
 
+    static void changePrice(){}
+
+    static void deleteItem(){}
+    
     static void cashierLogin() {
         
         int choice;
@@ -222,7 +229,7 @@ static void adminLogin() {
 
             switch (choice) {
                 case 1:
-                    System.out.println("viewItems()");
+                    viewItems();
                     break;
 
                 case 2:
@@ -251,5 +258,7 @@ static void adminLogin() {
         } while (choice != 5);
     }
 }
+
+    static void viewItem(){}
 
     
